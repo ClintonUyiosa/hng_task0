@@ -42,7 +42,7 @@ body {
  background-color: rgb(241, 241, 241);
  border-radius: 5px;
  padding: 10px 10px 10px 10px;
- width: 40%;
+ width: 100%;
  margin-bottom: 10px;
  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
@@ -86,7 +86,7 @@ background-color: rgb(241, 241, 241);
 border-radius: 20px;
 display: flex;
 justify-content: center;
-width: 80%;
+width: 100%;
 padding-bottom: 2px;
 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
@@ -109,11 +109,11 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   }
   
   .timeinmilliseconds{
-   width: 100%;
+   width: 80%;
  }
   
   .section1{
-    width: 100%;
+    width: 40%;
   }
   
 }
