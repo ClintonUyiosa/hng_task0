@@ -92,7 +92,7 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* Responsive Layout */
-@media (min-width: 0px) and (max-width: 600px) {
+@media(max-width: 600px) {
   .profile-card {
     flex-direction: row;
   }
