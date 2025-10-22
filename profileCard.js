@@ -6,9 +6,9 @@ function updateTime() {
 updateTime();
 
 setInterval(updateTime, 1000);
+
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form");
-  const successMessage = document.getElementById("success");
 
   const fields = [
     {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent actual submission
+    e.preventDefault(); // Prevent default form submission
 
     let isValid = true;
 
@@ -48,9 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const error = document.getElementById(field.errorId);
       const value = input.value.trim();
 
-      // Clear previous error
+      // Clear previous error message
       error.textContent = "";
 
+      // Validate
       if (!value || (field.validate && !field.validate(value))) {
         error.textContent = field.errorMessage;
         isValid = false;
@@ -58,21 +59,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     if (isValid) {
-      successMessage.textContent = "Your message has been successfully submitted!";
-      successMessage.style.color = "green";
-
-      // Optionally, reset the form
+      alert("Your message has been successfully submitted!");
       form.reset();
-
-      // Clear success message after a delay (optional)
-      setTimeout(() => {
-        successMessage.textContent = "";
-      }, 5000);
-    } else {
-      successMessage.textContent = "";
     }
   });
 });
+
 
 
 // const form = document.getElementById('contact-form');
