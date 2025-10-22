@@ -61,6 +61,7 @@ textarea {
   align-self: center;
   cursor: pointer;
   width:30%;
+  height:30px;
 }
   /* button[type="submit"] {
   background-color: rgb(241, 241, 241);
@@ -94,6 +95,7 @@ textarea {
     align-items: center;
   }
 }
+
 
 
 
