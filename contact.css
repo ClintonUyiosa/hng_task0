@@ -54,6 +54,14 @@ textarea {
   margin-top: 0.5rem;
 }
 
+.submitButton{
+  background-color: rgb(241, 241, 241);
+  border: 2px solid cyan;
+  border-radius: 10px;
+  align-self: center;
+  cursor: pointer;
+  width:30px;
+}
   /* button[type="submit"] {
   background-color: rgb(241, 241, 241);
   color: black;
@@ -86,6 +94,7 @@ textarea {
     align-items: center;
   }
 }
+
 
 
 
