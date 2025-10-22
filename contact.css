@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.contact-page {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success {
+  color: green;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+button[type="submit"] {
+  background-color: rgb(241, 241, 241);
+  color: black;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  width: 30%;
+  align-self:center;
+   cursor: pointer;
+}
+
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 25%;
+  margin-top: 2rem;
+}
+
+.button-section button {
+  background-color: rgb(241, 241, 241);
+  border: 2px solid cyan;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .button-section {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}
