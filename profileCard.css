@@ -93,7 +93,7 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 
 .button-section {
   display: flex;
-  gap: 20%;
+  gap: 10%;
   justify-content: center;
   align-items: center;
   padding: 20px;
