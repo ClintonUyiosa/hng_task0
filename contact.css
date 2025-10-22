@@ -63,30 +63,6 @@ textarea {
   width:30%;
   height:30px;
 }
-  /* button[type="submit"] {
-  background-color: rgb(241, 241, 241);
-  color: black;
-  border: 2px solid cyan;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  width: 30%;
-  align-self:center;
-   cursor: pointer;
-}  */
-
- /* .button-section {
-  display: flex;
-  justify-content: center;
-  gap: 20%;
-  margin-top: 2rem;
-}
-
-.button-section button {
-  background-color: rgb(241, 241, 241);
-  border: 2px solid cyan;
-  border-radius: 10px;
-  cursor: pointer;
-} */
 
 @media (min-width: 600px) {
   .button-section {
@@ -95,6 +71,7 @@ textarea {
     align-items: center;
   }
 }
+
 
 
 
