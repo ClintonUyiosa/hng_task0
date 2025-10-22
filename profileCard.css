@@ -102,7 +102,7 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 .button-section button{
   border-radius: 10px;
   border-color: cyan;
-  background-color: rgb(241, 241, 241); ;
+  background-color: rgb(241, 241, 241);
   width: 80px;
   height: 30px;
 }
